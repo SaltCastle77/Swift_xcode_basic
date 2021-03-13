@@ -13,6 +13,7 @@
 		54410E4F25EC04C90031EE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54410E4D25EC04C90031EE95 /* Main.storyboard */; };
 		54410E5125EC04CA0031EE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54410E5025EC04CA0031EE95 /* Assets.xcassets */; };
 		54410E5425EC04CA0031EE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54410E5225EC04CA0031EE95 /* LaunchScreen.storyboard */; };
+		54CF915C25EC267900841076 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CF915B25EC267900841076 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		54410E5025EC04CA0031EE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54410E5325EC04CA0031EE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54410E5525EC04CA0031EE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CF915B25EC267900841076 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				54410E4925EC04C90031EE95 /* SceneDelegate.swift */,
 				54410E4B25EC04C90031EE95 /* ViewController.swift */,
 				54410E4D25EC04C90031EE95 /* Main.storyboard */,
+				54CF915B25EC267900841076 /* SecondViewController.swift */,
 				54410E5025EC04CA0031EE95 /* Assets.xcassets */,
 				54410E5225EC04CA0031EE95 /* LaunchScreen.storyboard */,
 				54410E5525EC04CA0031EE95 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CF915C25EC267900841076 /* SecondViewController.swift in Sources */,
 				54410E4C25EC04C90031EE95 /* ViewController.swift in Sources */,
 				54410E4825EC04C90031EE95 /* AppDelegate.swift in Sources */,
 				54410E4A25EC04C90031EE95 /* SceneDelegate.swift in Sources */,

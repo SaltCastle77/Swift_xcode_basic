@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SubmitValue
 //
-//  Created by 염성훈 on 2020/12/18.
+//  Created by 염성훈 on 2021/03/12.
 //
 
 import UIKit
