@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54F68318259C1A6A00CA79CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F68317259C1A6A00CA79CD /* AppDelegate.swift */; };
-		54F6831A259C1A6A00CA79CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F68319259C1A6A00CA79CD /* SceneDelegate.swift */; };
-		54F6831F259C1A6A00CA79CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F6831D259C1A6A00CA79CD /* Main.storyboard */; };
-		54F68321259C1A6A00CA79CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F68320259C1A6A00CA79CD /* Assets.xcassets */; };
-		54F68324259C1A6A00CA79CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F68322259C1A6A00CA79CD /* LaunchScreen.storyboard */; };
-		54F6832E259C1C7300CA79CD /* ListViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F6832D259C1C7300CA79CD /* ListViewContoller.swift */; };
+		545C9CC826186E17007FB008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C9CC726186E17007FB008 /* AppDelegate.swift */; };
+		545C9CCA26186E17007FB008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C9CC926186E17007FB008 /* SceneDelegate.swift */; };
+		545C9CCF26186E17007FB008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545C9CCD26186E17007FB008 /* Main.storyboard */; };
+		545C9CD226186E17007FB008 /* Table_CellHeight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 545C9CD026186E17007FB008 /* Table_CellHeight.xcdatamodeld */; };
+		545C9CD426186E18007FB008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545C9CD326186E18007FB008 /* Assets.xcassets */; };
+		545C9CD726186E18007FB008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545C9CD526186E18007FB008 /* LaunchScreen.storyboard */; };
+		545C9CE1261875E0007FB008 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C9CE0261875E0007FB008 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54F68314259C1A6A00CA79CD /* Table-CellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table-CellHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54F68317259C1A6A00CA79CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54F68319259C1A6A00CA79CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54F6831E259C1A6A00CA79CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54F68320259C1A6A00CA79CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54F68323259C1A6A00CA79CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54F68325259C1A6A00CA79CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54F6832D259C1C7300CA79CD /* ListViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewContoller.swift; sourceTree = "<group>"; };
+		545C9CC426186E17007FB008 /* Table-CellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table-CellHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545C9CC726186E17007FB008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		545C9CC926186E17007FB008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		545C9CCE26186E17007FB008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		545C9CD126186E17007FB008 /* Table_CellHeight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_CellHeight.xcdatamodel; sourceTree = "<group>"; };
+		545C9CD326186E18007FB008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545C9CD626186E18007FB008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		545C9CD826186E18007FB008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545C9CE0261875E0007FB008 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54F68311259C1A6A00CA79CD /* Frameworks */ = {
+		545C9CC126186E17007FB008 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54F6830B259C1A6A00CA79CD = {
+		545C9CBB26186E17007FB008 = {
 			isa = PBXGroup;
 			children = (
-				54F68316259C1A6A00CA79CD /* Table-CellHeight */,
-				54F68315259C1A6A00CA79CD /* Products */,
+				545C9CC626186E17007FB008 /* Table-CellHeight */,
+				545C9CC526186E17007FB008 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		54F68315259C1A6A00CA79CD /* Products */ = {
+		545C9CC526186E17007FB008 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54F68314259C1A6A00CA79CD /* Table-CellHeight.app */,
+				545C9CC426186E17007FB008 /* Table-CellHeight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54F68316259C1A6A00CA79CD /* Table-CellHeight */ = {
+		545C9CC626186E17007FB008 /* Table-CellHeight */ = {
 			isa = PBXGroup;
 			children = (
-				54F68317259C1A6A00CA79CD /* AppDelegate.swift */,
-				54F68319259C1A6A00CA79CD /* SceneDelegate.swift */,
-				54F6831D259C1A6A00CA79CD /* Main.storyboard */,
-				54F6832D259C1C7300CA79CD /* ListViewContoller.swift */,
-				54F68320259C1A6A00CA79CD /* Assets.xcassets */,
-				54F68322259C1A6A00CA79CD /* LaunchScreen.storyboard */,
-				54F68325259C1A6A00CA79CD /* Info.plist */,
+				545C9CC726186E17007FB008 /* AppDelegate.swift */,
+				545C9CC926186E17007FB008 /* SceneDelegate.swift */,
+				545C9CCD26186E17007FB008 /* Main.storyboard */,
+				545C9CE0261875E0007FB008 /* ListViewController.swift */,
+				545C9CD326186E18007FB008 /* Assets.xcassets */,
+				545C9CD526186E18007FB008 /* LaunchScreen.storyboard */,
+				545C9CD826186E18007FB008 /* Info.plist */,
+				545C9CD026186E17007FB008 /* Table_CellHeight.xcdatamodeld */,
 			);
 			path = "Table-CellHeight";
 			sourceTree = "<group>";
@@ -70,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54F68313259C1A6A00CA79CD /* Table-CellHeight */ = {
+		545C9CC326186E17007FB008 /* Table-CellHeight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54F68328259C1A6A00CA79CD /* Build configuration list for PBXNativeTarget "Table-CellHeight" */;
+			buildConfigurationList = 545C9CDB26186E18007FB008 /* Build configuration list for PBXNativeTarget "Table-CellHeight" */;
 			buildPhases = (
-				54F68310259C1A6A00CA79CD /* Sources */,
-				54F68311259C1A6A00CA79CD /* Frameworks */,
-				54F68312259C1A6A00CA79CD /* Resources */,
+				545C9CC026186E17007FB008 /* Sources */,
+				545C9CC126186E17007FB008 /* Frameworks */,
+				545C9CC226186E17007FB008 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,24 +87,24 @@
 			);
 			name = "Table-CellHeight";
 			productName = "Table-CellHeight";
-			productReference = 54F68314259C1A6A00CA79CD /* Table-CellHeight.app */;
+			productReference = 545C9CC426186E17007FB008 /* Table-CellHeight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54F6830C259C1A6A00CA79CD /* Project object */ = {
+		545C9CBC26186E17007FB008 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					54F68313259C1A6A00CA79CD = {
-						CreatedOnToolsVersion = 12.3;
+					545C9CC326186E17007FB008 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 54F6830F259C1A6A00CA79CD /* Build configuration list for PBXProject "Table-CellHeight" */;
+			buildConfigurationList = 545C9CBF26186E17007FB008 /* Build configuration list for PBXProject "Table-CellHeight" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 54F6830B259C1A6A00CA79CD;
-			productRefGroup = 54F68315259C1A6A00CA79CD /* Products */;
+			mainGroup = 545C9CBB26186E17007FB008;
+			productRefGroup = 545C9CC526186E17007FB008 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54F68313259C1A6A00CA79CD /* Table-CellHeight */,
+				545C9CC326186E17007FB008 /* Table-CellHeight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54F68312259C1A6A00CA79CD /* Resources */ = {
+		545C9CC226186E17007FB008 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F68324259C1A6A00CA79CD /* LaunchScreen.storyboard in Resources */,
-				54F68321259C1A6A00CA79CD /* Assets.xcassets in Resources */,
-				54F6831F259C1A6A00CA79CD /* Main.storyboard in Resources */,
+				545C9CD726186E18007FB008 /* LaunchScreen.storyboard in Resources */,
+				545C9CD426186E18007FB008 /* Assets.xcassets in Resources */,
+				545C9CCF26186E17007FB008 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54F68310259C1A6A00CA79CD /* Sources */ = {
+		545C9CC026186E17007FB008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F68318259C1A6A00CA79CD /* AppDelegate.swift in Sources */,
-				54F6832E259C1C7300CA79CD /* ListViewContoller.swift in Sources */,
-				54F6831A259C1A6A00CA79CD /* SceneDelegate.swift in Sources */,
+				545C9CD226186E17007FB008 /* Table_CellHeight.xcdatamodeld in Sources */,
+				545C9CC826186E17007FB008 /* AppDelegate.swift in Sources */,
+				545C9CE1261875E0007FB008 /* ListViewController.swift in Sources */,
+				545C9CCA26186E17007FB008 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		54F6831D259C1A6A00CA79CD /* Main.storyboard */ = {
+		545C9CCD26186E17007FB008 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54F6831E259C1A6A00CA79CD /* Base */,
+				545C9CCE26186E17007FB008 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		54F68322259C1A6A00CA79CD /* LaunchScreen.storyboard */ = {
+		545C9CD526186E18007FB008 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54F68323259C1A6A00CA79CD /* Base */,
+				545C9CD626186E18007FB008 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54F68326259C1A6A00CA79CD /* Debug */ = {
+		545C9CD926186E18007FB008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		54F68327259C1A6A00CA79CD /* Release */ = {
+		545C9CDA26186E18007FB008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -281,7 +285,7 @@
 			};
 			name = Release;
 		};
-		54F68329259C1A6A00CA79CD /* Debug */ = {
+		545C9CDC26186E18007FB008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		54F6832A259C1A6A00CA79CD /* Release */ = {
+		545C9CDD26186E18007FB008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +324,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54F6830F259C1A6A00CA79CD /* Build configuration list for PBXProject "Table-CellHeight" */ = {
+		545C9CBF26186E17007FB008 /* Build configuration list for PBXProject "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54F68326259C1A6A00CA79CD /* Debug */,
-				54F68327259C1A6A00CA79CD /* Release */,
+				545C9CD926186E18007FB008 /* Debug */,
+				545C9CDA26186E18007FB008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54F68328259C1A6A00CA79CD /* Build configuration list for PBXNativeTarget "Table-CellHeight" */ = {
+		545C9CDB26186E18007FB008 /* Build configuration list for PBXNativeTarget "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54F68329259C1A6A00CA79CD /* Debug */,
-				54F6832A259C1A6A00CA79CD /* Release */,
+				545C9CDC26186E18007FB008 /* Debug */,
+				545C9CDD26186E18007FB008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		545C9CD026186E17007FB008 /* Table_CellHeight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				545C9CD126186E17007FB008 /* Table_CellHeight.xcdatamodel */,
+			);
+			currentVersion = 545C9CD126186E17007FB008 /* Table_CellHeight.xcdatamodel */;
+			path = Table_CellHeight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 54F6830C259C1A6A00CA79CD /* Project object */;
+	rootObject = 545C9CBC26186E17007FB008 /* Project object */;
 }
