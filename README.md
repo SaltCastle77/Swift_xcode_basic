@@ -1,6 +1,61 @@
-# 꼼꼼한 재은씨의 Swift 기본편 핵심정리
+# IOS 공부 정리
 
-## Chap8. 테이블 뷰를 이용한 데이터 목록구현
+> 참고자료 
+>
+> - 꼼꼼한 재은씨의 Swift 기본편, 실전편
+> - https://zeddios.tistory.com/
+
+## 1. 스위프트UI vs 스토리보드
+
+1. xcode 11버전에선 이른바 SWIFT UI란 이름으로 새로운 방식의 디자인 인터페이스를 제공한다. 애플은 오랫동안 스토리보드 혹은 프로그래밍적으로 짤 수 있는 UI 방법 두 가지를 제공했다. SWIFT UI는 이 방식을 탈피하여, 나눠지는(쪼개지는) 화면 경험을 제공한다.
+
+- 어떻게 레이아웃이 보이고 작동하는지에 대한 새로운 UI
+
+- 실시간으로 Swift 코드 작성시 UI 미리보기를 제공함
+
+2. #### UIKit -> SwiftUI
+
+> Swift UI는 말 그대로 UI관련 프레임워크다. 그러므로 기존에 사용하고있던, 각각의 뷰 컨트롤러 클래스에 거의 들어가있던
+>
+> ```
+> import UIKit
+> ```
+>
+> 이 부분을
+>
+> ```
+> import SwiftUI
+> ```
+>
+> 로 바뀐다는 것을 의미한다. 그러므로 SwiftUI를 Import하게 될 경우 UI가 앞에 붙었던 애들이 다 탈락하고 새롭게 변한다.
+
+3. 아직은 UIkit 즉 스토리보드가 많이 사용되는 추세이나 곧 SwiftUI로 넘어갈 것 같다.-> SwiftUI로 배우는게 더 나을 수도 있음. 하지만 이전버전을 고쳐야하기 때문에 둘다하기에는 많이 힘들다.
+
+
+
+## 2. 뷰 컨트롤러의 상태 변화와 생명주기
+
+![img](README.assets/1*etDLgjBamDJoiaM3_hie9A.png)
+
+> 뷰 컨트롤러의 생명주기는 다음과 같이 나눌 수 있다. 
+
+- Appearing: 뷰 컨트롤러가 스크린에 등장하기 시작한 순간부터 등장을 완료하기 직전까지의 상태, 다른 뷰 컨트롤러와 교차되기도함 
+- Appeared : 뷰 컨트로럴가 완전히 등장한 상태
+- Disappearing : 뷰 컨트롤러가 스크린에서 가려지기 시작해서 완전히 가려지기 직전의 상태, 또는 퇴장하기 시작해서 완전히 퇴장한 상태, 새로 등장하는 뷰 컨트롤러와 교차
+- Disappeared : 뷰 컨트롤러가 스크린에서 완전히 가려졌거나 혹은 퇴장한 상태를 의미한다. 
+
+### 중요 뷰 컨트롤러 함수들
+
+- `viewWillAppear()`: 화면이 다시 등장하기 시작한상태(=Appearing)로 바뀌는 동안 뷰 컨트럴러는 앱 객체에 의해 이 메서드를 호출하고 주로
+
+**화면이 등장할 때 마다 데이터를 갱신 해주고 싶다면 이 메소드를 override 해서 원하는 코드를 작성한다.**
+
+- `ViewDidAppear` - 뷰 컨트롤러가 화면에 나타난 직후에 실행됩니다. 화면에 적용될 애니메이션을 그리거나 **API로 부터 정보를 받아와 화면을 업데이트 할 때 이곳에 로직을 위치시키면 좋습니다**. 왜냐하면 지나치게 빨리 애니메이션을 그리거나 API에서 정보를 받아와 뷰 컨트롤러를 업데이트 할 경우 화면에 반영되지 않습니다.
+- `viewDidDisappear` - 뷰 컨트롤러가 화면에 나타난 직후에 실행된다.
+
+![2613D13C58C64DE32C](README.assets/2613D13C58C64DE32C-7528197.jpeg)
+
+## 3.  테이블 뷰를 이용한 데이터 목록구현
 
 - 내비게이션 컨트롤러를 선택하면 테이블 뷰 컨트롤러가 덤으로 추가된다.
 
@@ -124,9 +179,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
         }
 ```
 
-### 셀프 사이징
-
-- 직접 높이값을 게싼해서 맞추지 않아도 콘텐츠에 따라 자동으로 동적으로 높이를 결정해주는 것
+### 셀프 사이징 직접 높이값을 계산해서 맞추지 않아도 콘텐츠에 따라 자동으로 동적으로 높이를 결정해주는 것
 
 ```swift
   override func viewWillAppear(_ animated: Bool) {
@@ -136,9 +189,6 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 ```
 
 - `viewWillAppear` :  뷰가 나타나기 직전에 호출된다. `viewDidload`랑은 다른 점이 있는데 앱의 완전한 초기화 작업은 `viewDidLoad`에서 처리해도 되지만 다른 뷰에서 갔다가 다시 돌아오는 상황에서는 viewWillAppear에서 해주면된다.
-- 참고자료 : https://zeddios.tistory.com/43
-
-
 
 
 
